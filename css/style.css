@@ -1,0 +1,401 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "DM Sans Regular", "Montserrat Regular New", Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/*Cabecera*/
+header {
+    position: relative;
+    background-color: white;
+    padding: 1% 0%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);    
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+/*Menú de navageación*/
+nav {
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+nav ul li a {
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+}
+
+/*Enlaces*/
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(177, 172, 172);
+}
+
+/*LAYOUT GENERAL DE LA WEB*/
+section {
+    margin: 42px 7px 16px;
+    padding: 17px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 99%;
+    height: auto;
+    float: left;
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+article {
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+article h3 {
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+article p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+/*SECCIÓN QUIENES SOMOS*/
+.presentacion {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 4%;
+    margin-top: 5%;
+}
+
+.texto {
+    width: 48%;
+    text-align: justify;
+    vertical-align: middle;
+    float: left;
+    margin-right: 4%;
+}
+
+/*Video corporativo */
+.video {
+    width: 48%;
+    float: left;
+    position: relative;
+    padding-bottom: 27.25%;
+}
+
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border: 0;
+}
+
+/*Galería de imágenes de trabajadores*/
+.galeria_about-us {
+    margin-bottom: 1%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.persona {
+    width: 24%;
+    float: left;
+    margin: 7px 6px 7px 7px;
+}
+
+.persona img {
+    height: auto;
+    border-radius: 8px;
+    max-width: 100%;
+}
+
+/*SECCIÓN PRODUCTOS Y SERVICIOS*/
+.galeria_products {
+    margin-bottom: 1%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.proyect {
+    width: 29%;
+    float: left;
+    margin: 15px 26px 15px 27px;
+}
+
+.proyect img {
+    height: auto;
+    max-width: 86%;
+    margin: 7%;
+    border-radius: 8px;
+}
+
+.title-proyect {
+    margin-top: 3px;
+    font-size: 18px;
+    text-align: center;
+}
+
+/*Tabla productos y servicios*/
+.table_products {
+    font-size: 12px;
+    width: 100%;
+    border-width: 1px;
+    border-color: #729ea5;
+    border-collapse: collapse;
+}
+
+.table_products th {
+    font-size: 13px;
+    background-color: #acc8cc;
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #729ea5;
+    text-align: center;
+}
+
+.table_products tr {
+    background-color: #d4e3e5;
+}
+
+.table_products td {
+    font-size: 13px;
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #729ea5;
+    text-align: center;
+}
+
+/*SECCIÓN CONTACTO*/ 
+/*Formulario de contacto*/
+.datos-contacto {
+    width: 48%;
+    float: right;
+    margin: 7px;
+    margin-top: 2%;
+}
+
+form {
+    display: block;
+    float: left;
+    margin: 13px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 98%;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 2px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+.button {
+    text-align: center;
+    margin-top: 3%;
+}
+
+legend {
+    text-align: center;
+    padding: 1%;
+}
+
+.contact-form {
+    width: 48%;
+    float: left;
+    margin: 1%;
+}
+
+/*Mapa de ubicación*/
+.mapa {
+    margin: 1%;
+    width: 48%;
+    float: left;
+    padding: 1%;
+}
+
+.mapa iframe {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 275px;
+}
+
+/*SECCIÓN TRABAJA CON NOSOTROS*/
+/*Formulario*/
+.work-form {
+    width: 100%;
+}
+
+.work__colum1,
+.work__colum2 {
+    width: 48%;
+    float: left;
+    margin: 1%;
+}
+
+label[for="hombre"] {
+    width: 10%;
+}
+
+.hombre,
+.mujer {
+    width: 8%;
+    display: inline;
+}
+
+.sexo_option {
+    width: 19%;
+    display: inline;
+    margin: 11%;
+}
+
+.ano_inicio,
+.ano_fin {
+    width: 19%;
+    display: inline;
+}
+
+.hablado,
+.escrito,
+.leido {
+    width: 19%;
+    display: inline;
+}
+
+.idioma {
+    margin-top: 3%;
+}
+
+.idioma_option,
+.titulacion_anos {
+    margin: 2px 0px 16px 90px;
+}
+
+fieldset {
+    border: none;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+/*FOOTER*/
+footer {
+    padding: 18px;
+    background: #f4f4f4;
+    clear: both;
+    font-size: 14px;
+    position: relative;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+.text-footer {
+    text-align: left;
+    display: inline-block;
+    width: 70%;
+}
+
+/*Acceso a redes sociales*/
+.social-footer {
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 25px;
+}
+
+.social-footer img {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.social-footer img:last-child {
+    margin-right: 6px;
+}

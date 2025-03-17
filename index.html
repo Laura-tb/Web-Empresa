@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Reforma Integral</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <!--Cabecera-->
+        <header> 
+            <div class="logo">
+                <a href="#inicio"><img src="img/logohouserenovation.jpeg" alt="Logo de la empresa"></a>
+            </div>
+
+            <!--Menú de navegación-->
+            <nav> 
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#about-us">Quiénes somos</a></li>
+                    <li><a href="#products">Productos y servicios</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                    <li><a href="#work">Trabaja con nosotros</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <!--Página principal-->
+        <main>
+            <!--SECCIÓN QUIENES SOMOS-->
+            <section id="about-us">
+                <h2>Quiénes somos</h2>
+                <div class="presentacion">
+                    <div class="texto">
+                        <h1>Empresa de reforma integral de viviendas</h1>
+                        <p>Nos dedicamos a la reforma integral de viviendas, transformando espacios para adaptarlos a tus
+                            necesidades y deseos, con un enfoque en la calidad, la funcionalidad y el diseño.
+
+                        <p>Somos un equipo multidisciplinar de profesionales apasionados por lo que hacemos. Contamos con
+                            arquitectos, diseñadores de interiores, ingenieros, albañiles, fontaneros, electricistas y
+                            muchos más expertos, todos trabajando en sinergia para ofrecerte un servicio completo y
+                            personalizado. Desde la concepción del proyecto hasta la entrega de llaves, nos encargamos de
+                            cada detalle, garantizando resultados impecables y superando tus expectativas.</p>
+
+                        <p>Confía en nosotros para transformar tu espacio y crear el hogar que siempre has deseado.
+                            Presentamos a nuestro equipo:</p>
+                    </div>
+
+                    <!--Vídeo corporativo-->
+                    <div class="video">
+                        <iframe src="https://www.youtube.com/embed/vRHXpKiRdFU?si=RyXv-ziMfIdVT1bf"
+                            title="YouTube video player"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <!--Galería de imágenes de trabajadores-->
+                <div class="galeria_about-us">
+                    <article class="persona">
+                        <img src="img/obrero2.jpeg" alt="imagen albañil">
+                        <h3>Pedro Pérez</h3>
+                        <p>Albañil</p>
+                    </article>
+
+                    <article class="persona">
+                        <img src="img/electricista2.jpeg" alt="imagen electricista">
+                        <h3>Ramón González</h3>
+                        <p>Electricista</p>
+                    </article>
+
+                    <article class="persona">
+                        <img src="img/arquitecto2.jpeg" alt="imagen arquitecto">
+                        <h3>Lucia López</h3>
+                        <p>Arquitecto/a</p>
+                    </article>
+
+                    <article class="persona">
+                        <img src="img/diseñadora2.jpeg" alt="imagen diseñadora">
+                        <h3>Alba Ramírez</h3>
+                        <p>Diseñador/a de interiores</p>
+                    </article>
+                </div>
+            </section>
+
+            <!--SECCIÓN PRODUCTOS Y SERVICIOS-->
+            <section id="products">
+                <h2>Productos y servicios</h2>
+                <div class="galeria_products">
+                    <article class="proyect">
+                        <h3 class="title-proyect">Proyecto terminado</h3>
+                        <div class="img-proyect">
+                            <img src="img/terminado.jpeg" alt="imagen obra terminada">
+                        </div>
+
+                        <table class="table_products">
+                            <tr>
+                                <th>Ciudad</th>
+                                <th>m2</th>
+                                <th>Estado</th>
+                            </tr>
+                            <tr>
+                                <td>Madrid</td>
+                                <td>53</td>
+                                <td>Terminado</td>
+                            </tr>
+                        </table>
+                    </article>
+
+                    <article class="proyect">
+                        <h3 class="title-proyect">Proyecto en proceso</h3>
+                        <img src="img/proceso.jpeg" alt="imagen obra en proceso">
+                        <table class="table_products">
+                            <tr>
+                                <th>Ciudad</th>
+                                <th>m2</th>
+                                <th>Estado</th>
+                            </tr>
+                            <tr>
+                                <td>Sevilla</td>
+                                <td>68</td>
+                                <td>En proceso</td>
+                            </tr>
+                        </table>
+                    </article>
+
+                    <article class="proyect">
+                        <h3 class="title-proyect">Proyecto iniciado</h3>
+                        <img src="img/inicio.jpeg" alt="imagen obra iniciada">
+                        <table class="table_products">
+                            <tr>
+                                <th>Ciudad</th>
+                                <th>m2</th>
+                                <th>Estado</th>
+                            </tr>
+                            <tr>
+                                <td>Barcelona</td>
+                                <td>59</td>
+                                <td>Iniciando</td>
+                            </tr>
+                        </table>
+                    </article>
+
+                </div>
+            </section>
+
+            <!--SECCIÓN CONTACTO-->
+            <section id="contact">
+                <h2>Contacto</h2>
+                <div class="datos-contacto">
+                    <p><b>Dirección:</b> Alameda Principal, 43, Distrito Centro, 29001 Málaga</p>
+                    <p><b>Teléfono:</b> 689754128</p>
+                    <p><b>Correo electrónico:</b> info@reformas.com</p>
+                </div>
+
+                <!--Formulario de contacto-->
+                <div class="contact-form">
+                    <form action="#" method="post">
+                        <fieldset>
+                            <legend><strong>Solicitud de información:</strong></legend>
+                            <label for="nombre1">Nombre:</label>
+                            <input type="text" id="nombre1" required>
+
+                            <label for="email1">Email:</label>
+                            <input type="email" id="email1" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+                                placeholder="ejemplo@dominio.com" required>
+
+                            <label for="telefono1">Teléfono:</label>
+                            <input type="text" id="telefono1" pattern="[6,7]{1}[0-9]{8}"
+                                placeholder="Introduce un número móvil" required>
+
+                            <label for="comentario">Comentarios:</label>
+                            <textarea id="comentario" rows="4" cols="27" required></textarea>
+                        </fieldset>
+
+                        <button type="submit" value="Enviar">Enviar</button>
+                        <button type="reset" value="Borrar">Borrar</button>
+                    </form>
+                </div>
+
+                <!--Mapa de ubicación-->
+                <div class="mapa">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2669.3681053062733!2d-4.428978224225628!3d36.716689511136224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f796b73a4463%3A0x7cd621a71b760d9b!2sAlameda%20Principal%2C%2043%2C%20Distrito%20Centro%2C%2029001%20M%C3%A1laga!5e1!3m2!1ses!2ses!4v1741970910680!5m2!1ses!2ses"
+                        height="266" style="border:0" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+            </section>
+
+            <!--SECCIÓN TRABAJA CON NOSOTROS-->
+            <section id="work">
+                <h2>Trabaja con nosotros</h2>
+
+                <!--Formulario-->
+                <div class="work-form">
+                    <form action="#" method="post" enctype="multipart/form-data">
+
+                        <div class="work__colum1">
+                            <fieldset>
+                                <legend><strong>Datos personales</strong></legend>
+
+                                <label for="nombre2">Nombre:</label>
+                                <input type="text" id="nombre2" required>
+
+                                <label for="apellidos">Apellidos: </label>
+                                <input type="text" id="apellidos" required>
+
+                                <label for="dni">DNI: </label>
+                                <input type="text" id="dni" pattern="[XYZxyz]?[0-9]{8}[A-Za-z]" required>
+
+                                <label for="hombre">Sexo:</label>
+                                <div class="sexo_option">
+                                    <label for="hombre" class="hombre">Hombre:</label>
+                                    <input type="radio" id="hombre" class="hombre" name="sexo" value="h">
+
+                                    <label for="mujer" class="mujer">Mujer:</label>
+                                    <input type="radio" id="mujer" class="mujer" name="sexo" value="m">
+                                </div>
+
+                                <label for="fecha-nac">Fecha de nacimiento: </label>
+                                <input type="date" id="fecha-nac">
+
+                                <label for="ciudad">Ciudad: </label>
+                                <input type="text" id="ciudad">
+
+                                <label for="nacionalidad">Nacionalidad: </label>
+                                <input type="text" id="nacionalidad">
+
+                                <label for="cod-postal">Código postal: </label>
+                                <input type="text" id="cod-postal">
+
+                                <label for="telefono2">Teléfono: </label>
+                                <input type="text" id="telefono2" pattern="[0-9]{9}" placeholder="Introduce un número móvil"
+                                    required>
+
+                                <label for="email2">Email: </label>
+                                <input type="email" id="email2" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+                                    placeholder="ejemplo@dominio.com" required>
+                            </fieldset>
+                        </div>
+
+                        <div class="work__colum2">
+                            <fieldset>
+                                <legend><strong>Formación</strong></legend>
+
+                                <label for="titulacion1">Titulación: </label>
+                                <input type="text" id="titulacion1">
+
+                                <div class="titulacion_anos">
+                                    <label for="ano_inicio1" class="ano_inicio">Año de inicio: </label>
+                                    <input type="number" name="titulacion" min="1900" max="2099" id="ano_inicio1"
+                                        class="ano_inicio">
+                                    <label for="ano_fin1" class="ano_fin">Año de fin: </label>
+                                    <input type="number" name="titulacion" min="1900" max="2099" id="ano_fin1"
+                                        class="ano_fin">
+                                </div>
+
+                                <label for="titulacion2">Titulación: </label>
+                                <input type="text" id="titulacion2">
+
+                                <div class="titulacion_anos">
+                                    <label for="ano_inicio2" class="ano_inicio">Año de inicio: </label>
+                                    <input type="number" name="titulacion" min="1900" max="2099" id="ano_inicio2"
+                                        class="ano_inicio">
+                                    <label for="ano_fin2" class="ano_fin">Año de fin: </label>
+                                    <input type="number" name="titulacion" min="1900" max="2099" id="ano_fin2"
+                                        class="ano_fin">
+                                </div>
+
+                                <label for="titulacion3">Titulación: </label>
+                                <input type="text" id="titulacion3">
+
+                                <div class="titulacion_anos">
+                                    <label for="ano_inicio" class="ano_inicio">Año de inicio: </label>
+                                    <input type="number" name="titulacion" min="1900" max="2099" id="ano_inicio"
+                                        class="ano_inicio">
+                                    <label for="ano_fin" class="ano_fin">Año de fin: </label>
+                                    <input type="number" name="titulacion" min="1900" max="2099" id="ano_fin"
+                                        class="ano_fin">
+                                </div>
+                            </fieldset>
+
+                            <fieldset class="idioma">
+                                <legend><strong>Idiomas</strong></legend>
+
+                                <label for="idioma1">Idioma: </label>
+                                <input type="text" id="idioma1">
+
+                                <div class="idioma_option">
+                                    <label for="hablado1" class="hablado">Hablado: </label>
+                                    <select name="opciones" id="hablado1" size="1">
+                                        <option value="1">Excelente</option>
+                                        <option value="2">Bien</option>
+                                        <option value="3">Regular</option>
+                                        <option value="4">Nada</option>
+                                    </select>
+
+                                    <label for="leido1" class="leido">Leído: </label>
+                                    <select name="opciones" id="leido1" size="1">
+                                        <option value="1">Excelente</option>
+                                        <option value="2">Bien</option>
+                                        <option value="3">Regular</option>
+                                        <option value="4">Nada</option>
+                                    </select>
+
+                                    <label for="escrito1" class="escrito">Escrito: </label>
+                                    <select name="opciones" id="escrito1" size="1">
+                                        <option value="1">Excelente</option>
+                                        <option value="2">Bien</option>
+                                        <option value="3">Regular</option>
+                                        <option value="4">Nada</option>
+                                    </select>
+                                </div>
+
+                                <label for="idioma2">Idioma: </label>
+                                <input type="text" id="idioma2">
+
+                                <div class="idioma_option">
+                                    <label for="hablado2" class="hablado">Hablado: </label>
+                                    <select name="opciones" id="hablado2" size="1">
+                                        <option value="1">Excelente</option>
+                                        <option value="2">Bien</option>
+                                        <option value="3">Regular</option>
+                                        <option value="4">Nada</option>
+                                    </select>
+
+                                    <label for="leido2" class="leido">Leído: </label>
+                                    <select name="opciones" id="leido2" size="1">
+                                        <option value="1">Excelente</option>
+                                        <option value="2">Bien</option>
+                                        <option value="3">Regular</option>
+                                        <option value="4">Nada</option>
+                                    </select>
+
+                                    <label for="escrito2" class="escrito">Escrito: </label>
+                                    <select name="opciones" id="escrito2" size="1">
+                                        <option value="1">Excelente</option>
+                                        <option value="2">Bien</option>
+                                        <option value="3">Regular</option>
+                                        <option value="4">Nada</option>
+                                    </select>
+                                </div>
+                            </fieldset>
+
+                            <div class="button">
+                                <button type="submit" value="Enviar">Enviar</button>
+                                <button type="reset" value="Borrar">Borrar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--FOOTER-->
+        <footer>
+            <div class="text-footer">
+                Creado por Laura Trillo 2025. 
+                <a href="#" target="_blank">Aviso legal | </a> 
+                <a href="#" target="_blank">Condiciones generales | </a> 
+                <a href="#" target="_blank">Privacidad | </a> 
+                <a href="#" target="_blank">Cookies. </a>
+                También puedes visitarnos en:
+            </div>
+
+            <!--Acceso a redes sociales-->
+            <div class="social-footer">
+                <a href="https://www.facebook.com/facebook" target="_blank"><img src="img/facebook.png" alt="facebook"></a>
+
+                <a href="https://www.youtube.com/" target="_blank"><img src="img/youtube.png" alt="youtube"></a>
+
+                <a href="https://www.linkedin.com/" target="_blank"><img src="img/linkedin.png" alt="linkedin"></a>
+
+                <a href="https://www.instagram.com/" target="_blank"><img src="img/instagram.png" alt="instagram"></a>
+            </div>
+        </footer>
+
+    </body>
+
+</html>
